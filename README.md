@@ -1,6 +1,16 @@
-# next_mobile_app
+# NEXT Mobile App
 
-A new Flutter project.
+This app is a versatile tool that scans barcodes of various types, monitors WiFi connections, and handles permissions effectively.
+
+## Setup
+
+Run 'flutter doctor' to see if there are any problems with or something missing in your Flutter installation.
+Run 'flutter pub get' to fetch the latest versions of packages that satisfy the version constraints specified in your pubspec.yaml file. It's designed to get the dependencies if they are not already available in your project or if the pubspec.yaml file has changed.
+
+## To run the app:
+- Use 'flutter run'
+OR
+- Press the run button in VS Code
 
 ## Getting Started
 

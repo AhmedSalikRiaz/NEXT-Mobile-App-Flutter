@@ -4,8 +4,8 @@ This app is a versatile tool that scans barcodes of various types, monitors WiFi
 
 ## Setup
 
-Run 'flutter doctor' to see if there are any problems with or something missing in your Flutter installation.
-Run 'flutter pub get' to fetch the latest versions of packages that satisfy the version constraints specified in your pubspec.yaml file. It's designed to get the dependencies if they are not already available in your project or if the pubspec.yaml file has changed.
+- Run 'flutter doctor' to see if there are any problems with or something missing in your Flutter installation.
+- Run 'flutter pub get' to fetch the latest versions of packages that satisfy the version constraints specified in your pubspec.yaml file. It's designed to get the dependencies if they are not already available in your project or if the pubspec.yaml file has changed.
 
 ## To run the app:
 - Use 'flutter run'

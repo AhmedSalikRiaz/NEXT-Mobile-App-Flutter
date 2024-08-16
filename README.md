@@ -10,7 +10,7 @@ This app is a versatile tool that scans barcodes of various types, monitors WiFi
 ## To run the app:
 - Use 'flutter run'
 - OR
-- Press the run button in VS Code
+- Use the Run button in VS Code
 
 ## Getting Started
 

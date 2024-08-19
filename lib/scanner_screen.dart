@@ -399,8 +399,18 @@ class _MyScannerState extends State<MyScanner> with WidgetsBindingObserver {
             "Barcode Type: ${barcodeResult!.format.name}\nData: ${barcodeResult!.code}";
       });
 
+      // Show a SnackBar with success message
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: const Text('İşlem Başarılı'),
+          backgroundColor: Colors.green, // Set background color to green
+          duration: const Duration(seconds: 2),
+        ),
+      );
+
       // Send the barcode data and stationId to the API
       await sendDataToBackend(barcodeResult, stationId!);
+
       print('Station ID: $stationId ?????   !!!!!!!!!!!!!!!!\n\n\n\n');
       print('${barcodeResult?.code} will be sent !!!!!!!!!!!!!!!!\n\n\n\n');
     } else {
